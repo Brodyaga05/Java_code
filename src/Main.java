@@ -4,15 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите возраст");
-        int age = scanner.nextInt();
+        String age = scanner.nextLine();
         switch (age){
-            case 0:
+            case "нуль":
                 System.out.println("Вы родился");
                 break;
-            case 7:
+            case "пять":
                 System.out.println("Ты пошел в садик");
                 break;
-            case 18:
+            case "восемнадцать":
                 System.out.println("Вы пошел работать");
                 break;
             default:
