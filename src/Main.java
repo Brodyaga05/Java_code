@@ -1,13 +1,22 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    for(int i = 0; i<=15; i++){
-        if (i%2==0){
-            continue;
-        }
-        System.out.println("Это нечетное число " + i);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите возраст");
+        int age = scanner.nextInt();
+        if (age==10){
+            System.out.println("Вы учитесь в школе");}
+            else if (age==18){
+                System.out.println("Вы закончили школу");
+            }
+            else if (age==25){
+                System.out.println("Вы работаете");
+            }
+
+
+
 
     }
 
-        }
 }
