@@ -5,16 +5,20 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите возраст");
         int age = scanner.nextInt();
-        if (age==10){
-            System.out.println("Вы учитесь в школе");}
-            else if (age==18){
-                System.out.println("Вы закончили школу");
-            }
-            else if (age==25){
-                System.out.println("Вы работаете");
-            }
+        switch (age){
+            case 0:
+                System.out.println("Вы родился");
+                break;
+            case 7:
+                System.out.println("Ты пошел в садик");
+                break;
+            case 18:
+                System.out.println("Вы пошел работать");
+                break;
+            default:
+                System.out.println("Ты не ты");
 
-
+        }
 
 
     }
