@@ -8,8 +8,9 @@ public class Main {
         strings[0] = "Привет";
         strings[1] = "Пока";
         strings[2] = "Java";
-        System.out.println(strings[0]);
-        System.out.println(strings[2]);
+        for(int i=0; i<strings.length; i++){
+            System.out.println(strings[i]);
+        }
 
 
 
