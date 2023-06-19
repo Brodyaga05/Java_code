@@ -23,6 +23,10 @@ public class Main {
         System.out.println();
         System.out.println(sum);
 
+        int value = 0;
+        String s = null;
+        String s1 = "geretgrte";
+
 
 
 
