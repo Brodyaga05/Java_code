@@ -11,7 +11,10 @@ public class Main {
         for(int i=0; i<strings.length; i++){
             System.out.println(strings[i]);
         }
-
+        System.out.println();
+        for(String string:strings){
+            System.out.println(string);
+        }
 
 
 
