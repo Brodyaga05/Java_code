@@ -9,6 +9,7 @@ public class Main {
         strings[1] = "Пока";
         strings[2] = "Java";
         System.out.println(strings[0]);
+        System.out.println(strings[2]);
 
 
 
