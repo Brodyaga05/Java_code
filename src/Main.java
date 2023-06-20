@@ -6,6 +6,8 @@ public class Main {
                             {32,4,5},
                              {6,7,8}};
         System.out.println(matrice[2][2]);
+        System.out.println(matrice[1][0]);
+
 
 
 
