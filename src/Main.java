@@ -10,6 +10,7 @@ public class Main {
         System.out.println(matrice[0][4]);*/
         int[] number1 = new int[5];
         String[][] strings = new String[2][3];
+        strings[0][1] = "Java Привет";
         System.out.println(strings[0][1]);
 
 
