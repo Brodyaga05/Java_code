@@ -7,7 +7,7 @@ public class ClassesAndObjects {
     Person person2 = new Person();
     person2.name = "Вова";
     person2.age = 20;
-    person2.speak();
+
 
 }
 
@@ -16,6 +16,7 @@ class Person {
     String name;
     int age;
     void speak(){
+        for (int i = 0; i < 3; i++)
         System.out.println("Меня зовут " + name + ", мне " + age + " лет");
 
     }
