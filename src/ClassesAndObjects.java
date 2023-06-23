@@ -4,12 +4,11 @@ public class ClassesAndObjects {
     person1.name = "Роман";
     person1.age = 50;
     person1.sayHello();
-    person1.speak();
     Person person2 = new Person();
     person2.name = "Вова";
     person2.age = 20;
     person2.speak();
-    person2.sayHello();
+
 
 }
 
