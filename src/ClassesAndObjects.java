@@ -3,6 +3,7 @@ public class ClassesAndObjects {
     Person person1 = new Person();
     person1.name = "Роман";
     person1.age = 50;
+    person1.speak();
     Person person2 = new Person();
     person2.name = "Вова";
     person2.age = 20;
@@ -13,7 +14,9 @@ public class ClassesAndObjects {
 class Person {
     String name;
     int age;
+    void speak(){
+        System.out.println("Меня зовут " + name + ", мне " + age + " лет");
 
-
+    }
 
 }
