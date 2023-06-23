@@ -8,6 +8,7 @@ public class ClassesAndObjects {
     person2.name = "Вова";
     person2.age = 20;
     person2.speak();
+    person2.sayHello();
 
 }
 
@@ -20,6 +21,7 @@ class Person {
         System.out.println("Меня зовут " + name + ", мне " + age + " лет");
     }
     void  sayHello(){
+        for (int i = 0; i < 2; i++)
         System.out.println("Hello");
 
     }
