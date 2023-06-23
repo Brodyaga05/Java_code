@@ -7,6 +7,7 @@ public class ClassesAndObjects {
     Person person2 = new Person();
     person2.name = "Вова";
     person2.age = 20;
+    person2.speak();
 
 }
 
