@@ -1,11 +1,10 @@
 public class type {
     public static void main(String[] args) {
-        char myVar1 = 65;
-        char myVar2 = 66;
-        char myVar3 = 67;
-        System.out.println(myVar1);
-        System.out.println(myVar2);
-        System.out.println(myVar3);
+        int myInt = 9;
+        double myDouble = myInt; // Automatic casting: int to double
+
+        System.out.println(myInt);      // Outputs 9
+        System.out.println(myDouble);   // Outputs 9.0
     }
 
 
