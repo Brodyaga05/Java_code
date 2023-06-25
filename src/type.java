@@ -10,6 +10,8 @@ public class type {
 
         System.out.println(myDouble);   // Outputs 9.78
         System.out.println(myInt);      // Outputs 9
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println("The length of the txt string is: " + txt.length());
     }
 
 
