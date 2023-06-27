@@ -1,8 +1,7 @@
 public class type {
     public static void main(String[] args) {
-        String firstName = "John ";
-        String lastName = "Doe";
-        System.out.println(firstName.concat(lastName));
+        String txt = "Hello Everybody";
+        System.out.println(txt.indexOf("v"));
     }
 
 }
