@@ -3,12 +3,11 @@ public class ClassesAndObjects {
     Person person1 = new Person();
     person1.name = "Роман";
     person1.age = 50;
-    person1.sayHello();
     Person person2 = new Person();
     person2.name = "Вова";
     person2.age = 20;
-    person2.speak();
-
+    person1.calculateYearsToRetirement();
+    person2.calculateYearsToRetirement();
 
 }
 
@@ -16,7 +15,7 @@ public class ClassesAndObjects {
 class Person {
     String name;
     int age;
-    void calculateYearsToRetiremebt(){
+    void calculateYearsToRetirement(){
         int years = 65-age;
         System.out.println("Количество лет до пенсии: " + years);
 
