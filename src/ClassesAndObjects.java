@@ -16,6 +16,11 @@ public class ClassesAndObjects {
 class Person {
     String name;
     int age;
+    void calculateYearsToRetiremebt(){
+        int years = 65-age;
+        System.out.println("Количество лет до пенсии: " + years);
+
+    }
     void speak(){
         for (int i = 0; i < 3; i++)
         System.out.println("Меня зовут " + name + ", мне " + age + " лет");
