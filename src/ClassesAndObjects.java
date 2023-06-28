@@ -6,8 +6,10 @@ public class ClassesAndObjects {
     Person person2 = new Person();
     person2.name = "Вова";
     person2.age = 20;
-    person1.calculateYearsToRetirement();
-    person2.calculateYearsToRetirement();
+    int years1 = person1.calculateYearsToRetirement();
+    int years2 = person2.calculateYearsToRetirement();
+        System.out.println("Первому человеку до пенсии: "+ years1 + " лет");
+        System.out.println("Первому человеку до пенсии: "+ years2 + " лет");
 
 }
 
@@ -15,9 +17,10 @@ public class ClassesAndObjects {
 class Person {
     String name;
     int age;
-    void calculateYearsToRetirement(){
+   int calculateYearsToRetirement(){
         int years = 65-age;
-        System.out.println("Количество лет до пенсии: " + years);
+        return years;
+       System.out.println();
 
     }
     void speak(){
