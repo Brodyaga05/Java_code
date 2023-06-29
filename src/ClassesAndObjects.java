@@ -4,7 +4,8 @@ public class ClassesAndObjects {
     person1.setName("Роман");
     person1.age = 50;
     Person person2 = new Person();
-    person2.name = "Вова";
+    String s1 ="Вова";
+    person2.setName(s1);
     person2.age = 20;
     person1.speak();
 
