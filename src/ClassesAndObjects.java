@@ -8,6 +8,7 @@ public class ClassesAndObjects {
     person2.setName(s1);
     person2.age = 20;
     person1.speak();
+    person2.speak();
 
 
 
