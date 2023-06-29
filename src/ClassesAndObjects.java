@@ -18,8 +18,8 @@ class Person {
     String name;
     int age;
 
-    void setName(){
-
+    void setName(String username){
+        name = username;
     }
 
 
