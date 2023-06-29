@@ -17,6 +17,12 @@ public class ClassesAndObjects {
 class Person {
     String name;
     int age;
+
+    void setName(){
+
+    }
+
+
    int calculateYearsToRetirement(){
         int years = 65-age;
         return years;
