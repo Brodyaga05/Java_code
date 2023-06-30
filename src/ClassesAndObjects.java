@@ -12,6 +12,10 @@ class Person {
    public void setName(String userName){
        name = userName;
    }
+   public String getName(){
+       return name;
+
+   }
 
     void setNameAndAge(String username, int userage){
         name = username;
