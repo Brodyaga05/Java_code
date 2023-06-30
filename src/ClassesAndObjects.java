@@ -1,6 +1,9 @@
 public class ClassesAndObjects {
     public static void main(String[] args) {
     Person person1 = new Person();
+    person1.setName("Воладеморт");
+    person1.setAge(123);
+    person1.speak();
 
 
 
@@ -33,7 +36,7 @@ class Person {
         return years;
     }
     void speak(){
-        System.out.println("Меня зовут " + name + ", мне " + age + " лет");
+        System.out.println("Меня зовут " + name + ", мне " + age + " года");
     }
     void  sayHello(){
         for (int i = 0; i < 2; i++)
