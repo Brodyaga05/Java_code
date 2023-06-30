@@ -18,6 +18,10 @@ class Person {
    public void setAge(int userAge){
        age = userAge;
    }
+   public int setAge(){
+       return age;
+
+   }
 
 
     void setNameAndAge(String username, int userage){
