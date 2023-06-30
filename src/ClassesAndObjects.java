@@ -25,7 +25,10 @@ class Person {
        return name;
    }
    public void setAge(int userAge){
-       age = userAge;
+       if (userAge<0){
+           System.out.println("Возраст должен быть положительным");
+       } else {
+       age = userAge;}
    }
    public int getAge(){
        return age;
