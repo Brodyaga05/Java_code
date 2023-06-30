@@ -3,9 +3,10 @@ public class ClassesAndObjects {
     Person person1 = new Person();
     person1.setName("Воладеморт");
     person1.setAge(123);
+        System.out.println("Выводим значение в main методе: " + person1.getName());
+        System.out.println("Выводим значение в main методе: " + person1.getAge());
+
     person1.speak();
-
-
 
 }
 }
@@ -13,6 +14,11 @@ class Person {
     private String name;
    private int age;
    public void setName(String userName){
+     if (userName.isEmpty()){
+           System.out.println("Ты ввел пустое имя");
+       } else {
+         name = userName;
+       }
        name = userName;
    }
    public String getName(){
@@ -21,7 +27,7 @@ class Person {
    public void setAge(int userAge){
        age = userAge;
    }
-   public int setAge(){
+   public int getAge(){
        return age;
    }
 
