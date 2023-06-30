@@ -4,14 +4,14 @@ public class ClassesAndObjects {
     Person person2 = new Person();
     person1.setNameAndAge("Роман", 20);
     person2.setNameAndAge("Вова", 30);
-    person1.speak();
-    person2.speak();
 }
-
 }
 class Person {
     private String name;
    private int age;
+   public void setName(String userName){
+       name = userName;
+   }
 
     void setNameAndAge(String username, int userage){
         name = username;
