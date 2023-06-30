@@ -7,15 +7,12 @@ public class ClassesAndObjects {
     person2.setNameAndAge("Вова", 30);
     person1.speak();
     person2.speak();
-
-
-
 }
 
 }
 class Person {
-    String name;
-    int age;
+    private String name;
+   private int age;
 
     void setNameAndAge(String username, int userage){
         name = username;
