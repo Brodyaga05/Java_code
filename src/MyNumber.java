@@ -8,7 +8,7 @@ public class MyNumber {
         if ( myAge >= votingAge){
             System.out.println("Вы можете проголосовать");
         } else {
-            System.out.println("Вы не можете проголосовать");
+            System.out.println("Это не возможно");
         }
 
     }
