@@ -1,12 +1,12 @@
 public class ClassesAndObjects {
     public static void main(String[] args) {
     Person person1 = new Person();
-    person1.setName("Воладеморт");
-    person1.setAge(123);
-        System.out.println("Выводим значение в main методе: " + person1.getName());
-        System.out.println("Выводим значение в main методе: " + person1.getAge());
+    person1.setName("");
+    person1.setAge(0);
+        /*System.out.println("Выводим значение в main методе: " + person1.getName());
+        System.out.println("Выводим значение в main методе: " + person1.getAge());*/
 
-    person1.speak();
+
 
 }
 }
@@ -25,7 +25,7 @@ class Person {
        return name;
    }
    public void setAge(int userAge){
-       if (userAge<0){
+       if (userAge<=0){
            System.out.println("Возраст должен быть положительным");
        } else {
        age = userAge;}
