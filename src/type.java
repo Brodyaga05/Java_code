@@ -1,9 +1,20 @@
 public class type {
     public static void main(String[] args) {
-        String txt = "Hello Everybody";
-        System.out.println(txt.indexOf("v"));
-        System.out.println(Math.random());
-    }
+        int x = 50;
+        int y = 50;
+        if
+        (x == y) {
+            System.out.println("1");
+        }
+        else if
+        (x > y) {
+            System.out.println("2");
+        }
+        else
+        {
+            System.out.println("3");
 
-}
+        }
+
+}}
 
