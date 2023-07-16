@@ -1,23 +1,29 @@
 public class type {
     public static void main(String[] args) {
-        /*int x = 50;
-        int y = 50;
-        if
-        (x == y) {
-            System.out.println("1");
+        int day = 4;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
         }
-        else if
-        (x > y) {
-            System.out.println("2");
-        }
-        else
-        {
-            System.out.println("3");
-
-        }*/
-        int time = 20;
-        String result = (time < 18) ? "Good day." : "Good evening.";
-        System.out.println(result);
 
     }}
 
