@@ -1,6 +1,6 @@
 public class type {
     public static void main(String[] args) {
-        int x = 50;
+        /*int x = 50;
         int y = 50;
         if
         (x == y) {
@@ -14,7 +14,10 @@ public class type {
         {
             System.out.println("3");
 
-        }
+        }*/
+        int time = 20;
+        String result = (time < 18) ? "Good day." : "Good evening.";
+        System.out.println(result);
 
-}}
+    }}
 
