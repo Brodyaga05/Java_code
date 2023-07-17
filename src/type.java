@@ -1,11 +1,14 @@
 public class type {
     public static void main(String[] args) {
-        int i = 0;
-        do {
-            System.out.println(i);
-            i++;
+
+        for
+        (int i = 0; i < 5;
+         i++
+        ) {
+            System.out.println(
+                    "Yes"
+            );
         }
-        while (i < 5);
 }
 }
 
