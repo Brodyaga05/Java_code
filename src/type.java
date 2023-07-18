@@ -1,10 +1,5 @@
 public class type {
     public static void main(String[] args) {
-        String[] car = {"mazda", "volvo", "opel"};
-        for (String i : car) {
-            System.out.println(i);
-
-
-        }
+        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
     }}
 
