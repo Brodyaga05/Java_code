@@ -5,6 +5,8 @@ public class type {
     }
     public static void main (String[] args) {
         myMethod();
+        myMethod();
+        myMethod();
     }
 
 
