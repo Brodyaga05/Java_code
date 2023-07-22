@@ -1,20 +1,18 @@
 public class type {
     // Create a checkAge() method with an integer variable called age
-    static void checkAge(int age) {
+    static int plusMethodInt(int x, int y) {
+        return x + y;
+    }
 
-        // If age is less than 18, print "access denied"
-        if (age < 18) {
-            System.out.println("Access denied - You are not old enough!");
-
-            // If age is greater than, or equal to, 18, print "access granted"
-        } else {
-            System.out.println("Access granted - You are old enough!");
-        }
-
+    static double plusMethodDouble(double x, double y) {
+        return x + y;
     }
 
     public static void main(String[] args) {
-        checkAge(20); // Call the checkAge method and pass along an age of 20
+        int myNum1 = plusMethodInt(8, 5);
+        double myNum2 = plusMethodDouble(4.3, 6.26);
+        System.out.println("int: " + myNum1);
+        System.out.println("double: " + myNum2);
     }
 }
 
