@@ -4,7 +4,8 @@ public class type {
 
     }
     public static void main (String[] args) {
-        System.out.println(myMethod(5, 4));
+        int z = myMethod(5,6);
+        System.out.println(z);
     }
 
 
