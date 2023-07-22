@@ -4,7 +4,7 @@ public class type {
 
     }
     public static void main (String[] args) {
-        System.out.println(myMethod(3));
+        System.out.println(myMethod(5, 4));
     }
 
 
