@@ -1,12 +1,12 @@
 public class type {
-    static void myMethod() {
-        System.out.println("I just got executed!");
+    static void myMethod(String fname) {
+        System.out.println(fname + " Refsnes");
 
     }
     public static void main (String[] args) {
-        myMethod();
-        myMethod();
-        myMethod();
+        myMethod("Liam");
+        myMethod("Jenny");
+        myMethod("Anja");
     }
 
 
