@@ -22,6 +22,9 @@ class Human {
     public int getAge(){
         return age;
     }
+    public void getInfo(){
+        System.out.println(name + "," + age);
+    }
 }
 
 
