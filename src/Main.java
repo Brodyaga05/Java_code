@@ -4,6 +4,11 @@ public class Main {
     human1.setAge(18);
     human1.setName("Tom");
     human1.getInfo();
+    Human human2 = new Human();
+    human2.setAge(34);
+    human2.setName("Tolik");
+    human2.getInfo();
+
     }
 }
 class Human {
