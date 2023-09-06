@@ -6,6 +6,7 @@ public class Main {
     human1.getInfo();
     }
 
+
 }
 class Human {
     String name;
