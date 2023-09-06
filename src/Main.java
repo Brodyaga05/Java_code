@@ -8,8 +8,15 @@ class Human {
     }
     public void setAge(int myAge){
         age = myAge;
-
+    }
+    public String getName(){
+        return name;
+    }
+    public int getAge(){
+        return age;
     }
 }
+
+
 
 
